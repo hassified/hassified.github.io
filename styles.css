@@ -1,0 +1,102 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  background-image: url('assets/background5.png');
+  color: #111;
+  text-align: center;
+}
+
+.nav-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #ddd;
+}
+
+.nav-bar li {
+  margin: 0 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+  padding: 15px 10px;
+  display: inline-block;
+}
+
+.logo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 15px 10px;
+}
+
+.logo h1 {
+  font-size: 3em;
+  margin: 0 0 10px;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+.tagline {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.link-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.link-icons img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.bio {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.bio .profile-pic {
+  display: block;
+  margin: 30px auto 20px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9em;
+  background: #f9f9f9;
+}
