@@ -12,7 +12,7 @@ body {
   list-style: none;
   padding: 0;
   margin: 0;
-  background: #fff;
+  background: #;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -98,5 +98,5 @@ body {
 footer {
   padding: 20px;
   font-size: 0.9em;
-  background: #f9f9f9;
+  background: #;
 }
